@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "a77b6cf4-67ca-40d5-a818-e5a31bd72929",
+		"name": "question2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "question2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"random\" : \"DEFG\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4026/question2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4026",
+					"path": [
+						"question2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
